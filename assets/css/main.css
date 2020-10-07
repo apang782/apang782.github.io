@@ -205,6 +205,12 @@ button:hover{
   	width:30%;
 }
 
+@media only screen and (min-width: 450px) {
+	.card {
+		min-width:200px;
+	}
+}
+
 .card p {
 	height:75px;
 }
