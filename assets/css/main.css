@@ -149,9 +149,10 @@ h2{
 
 .portfolio {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+	grid-template-columns: repeat(auto-fill, minmax(400px,1fr));
 	grid-auto-rows: auto;
-	margin:0px auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .buttons{
@@ -201,13 +202,16 @@ button:hover{
   	justify-content: flex-start;
   	align-items:center;
   	align-content:stretch;
-  	min-width: 300px;
+  	min-width: 400px;
   	width:30%;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (max-width: 800px) {
 	.card {
 		min-width:200px;
+	}
+	.portfolio {
+		grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
 	}
 }
 
