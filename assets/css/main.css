@@ -205,7 +205,7 @@ button:hover{
   	width:30%;
 }
 
-@media only screen and (min-width: 450px) {
+@media only screen and (min-width: 800px) {
 	.card {
 		min-width:200px;
 	}
