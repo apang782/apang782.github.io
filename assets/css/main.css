@@ -1,6 +1,10 @@
 .top-wrapper {
 	color: white;
-	background:linear-gradient(#3E53A9e6,#4c516de6,#2d3436e6),url('../img/t.jpg');	background-size: cover;
+	background:linear-gradient(#3E53A9e6,#4c516de6,#2d3436e6),url('../img/t.jpg');	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
 }
 
 .paralla {
@@ -13,41 +17,71 @@
 }
 
 ::selection {
-	background:#616698;
+	background:#55efc4;
 }
 
 header a:hover {
 	color:#FFBA08;
 }
 
-.name {
+.column {
+	float:left;
+	width:50%;
+	padding-bottom: 22px;
+}
+
+.columntext {
+	padding-right: 10px;
+}
+
+.columnline{
+	padding-left: 10px;
+	background-repeat: repeat;
+	line-height: 80%;
+	color:#F5F5F5;
+	font-size:90%;
+	border-right: thin solid #FFBA08;
+}
+
+#topic{
 	font-weight: bold;
+	border-left: solid #FFBA08;
 }
 
-.subtitle #span1 {
-	color: #ff5349;
+#sub {
+	line-height: 20%;
+	font-size:80%;
+	color:#A9A9A9;
 }
 
-.subtitle #span2 {
-	color: #7FFF00;
+.about{
+	background:linear-gradient(90deg,rgba(255, 255, 255, 0) 50%,#2f3542 50%),
+	url('../img/a.png') repeat;
+	font-size:115%
 }
 
-.subtitle #span3 {
-	color: #ffeaa7;
+.about:after{
+	content:'';
+	display:table;
+	clear:both;
 }
 
 .about a:hover {
 	color:#FFBA08;
 }
 
+.display {
+	background:url('../img/d.png');
+	background-repeat:repeat;
+}
+
+
 .buttons{
 	border-top: 1px solid;
-
-
-		flex:1;
-		align-self: flex-end;
-		align-items: flex-end;
-		vertical-align: bottom;
+	flex:1;
+	align-self: flex-end;
+	align-items: flex-end;
+	vertical-align: bottom;
 	position: relative;
 }                                                                                                                                                                                                                                                                                                                                                               
 
@@ -83,11 +117,6 @@ ion-icon:hover {
 
 .card:hover {
   box-shadow: 0 4px 16px 0 rgba(0,0,0,0.2);
-}
-
-.contact a {
-	font-weight: 600;
-	color:#81ecec;
 }
 
 .contact a:hover {
@@ -159,6 +188,22 @@ ion-icon:hover {
 }
 
 @media screen and (max-width:480px){
+	.columntext {
+		padding-right: 0px;
+	}
+
+	.about {
+		background:#2d3436;
+	}
+
+	.columnline {
+		display:none;
+	}
+
+	.column{
+		width:100%;
+	}
+
 	.card{
 		margin:1em 1.5%;
 		display:inline-block;
@@ -178,10 +223,25 @@ ion-icon:hover {
 		min-width:300px;
 		width:30%
 	}
-	.portfolio{
+	.portfolio {
 		grid-template-columns:repeat(auto-fill,minmax(300px,1fr))
 	}
 	.card span{
 		display:none;
 	}
+}
+
+.contact {
+	background:url('../img/c.png');
+	background-repeat:repeat;
+	padding:2px 16px;
+	justify-content: center;
+	text-align:center;
+	display:flex;
+	align-items:center;
+}
+
+.contact ion-icon {
+	height:50px;
+	width:50px;
 }

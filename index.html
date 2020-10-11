@@ -14,19 +14,20 @@
 </head>
 
 <style>
-	html,body{width:100%;padding:0;margin:0;overflow:auto}html{scroll-behavior:smooth}*{box-sizing:border-box}body{margin:0;background:#2d3436;color:#dfe6e9;font-family:'Red Hat Display',sans-serif;*/}a{color:white;text-decoration:none}ul{list-style:none;margin:0;padding:0}.top-wrapper{color:white;background:linear-gradient(#292E49e6,#536976e6,#6c5ce7e6),url('../img/t.jpg');background-size:cover}.center-wrapper{padding:1.5em;max-width:1200px;margin:0 auto}header{font-size:110%;display:flex;justify-content:space-between}ul{display:flex}li a{padding:0.5em}.center-content{margin:4em 0 2em}.subtitle{margin-bottom:0}.about{font-size:120%}.about #hi{font-size:30px;line-height:60px;color:#dfe6e9}.about a{font-weight:600;color:#81ecec}.about #arrow{font-size:30px;font-weight:600;line-height:60px;color:#FFBA08}.about #cursor{display:inline;color:#616698;font-size:30px;font-weight:600;line-height:60px;background-color:#616698;animation:blink 2.25s infinite}@keyframes blink{0%{opacity:0}49%{opacity:0}50%{opacity:1}}.jump ion-icon{margin-left:auto;margin-right:auto;display:block;height:30px;width:30px;padding-top:0.5em}.paralla{background:url('../img/b.jpg');background-size:cover;background-attachment:fixed;background-position:center;background-repeat:no-repeat;height:350px}h2{text-align:center;position:relative;font-size:xx-large}.portfolio{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));grid-auto-rows:auto;margin-left:auto;margin-right:auto}.card{margin:1em 1.5%;display:inline-block;border-radius:3px;color:black;text-align:center;margin-left:auto;margin-right:auto;background-color:#f4f4f4;position:relative;padding:2px 16px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);flex-direction:column;justify-content:flex-start;align-items:center;align-content:stretch;min-width:400px;width:30%}ion-icon{position:relative;display:inline-block;top:0.15em}#ex{color:#00b894}
+	html,body{width:100%;padding:0;margin:0;overflow:auto}html{scroll-behavior:smooth}*{box-sizing:border-box}body{margin:0;background:#2d3436;color:#dfe6e9;font-family:'Red Hat Display',sans-serif;*/}a{color:white;text-decoration:none}ul{list-style:none;margin:0;padding:0}.center-wrapper{padding:1.5em;max-width:1200px;margin:0 auto}header{font-size:110%;display:flex;justify-content:space-between;}ul{display:flex}li a{padding:0.5em}.center-content{margin:4em 0 2em}.subtitle{margin-bottom:0}.about #hi{font-size:40px;line-height:60px;color:#dfe6e9}.about a{font-weight:600;color:#2ed573}.jump ion-icon{margin-left:auto;margin-right:auto;display:block;height:30px;width:30px;padding-top:0.5em}h2{text-align:center;position:relative;font-size:xx-large}.portfolio{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));grid-auto-rows:auto;margin-left:auto;margin-right:auto}.card{margin:1em 1.5%;display:inline-block;border-radius:3px;color:black;text-align:center;margin-left:auto;margin-right:auto;background-color:#f4f4f4;position:relative;padding:2px 16px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);flex-direction:column;justify-content:flex-start;align-items:center;align-content:stretch;min-width:400px;width:30%}ion-icon{position:relative;display:inline-block;top:0.15em}#ex{color:#00b894}#ex1{color:#FFBA08;}
 </style>
-
-
 <body>
-	<div class="top-wrapper"> 
-		<div class="center-wrapper">
+	<div class="top-wrapper">
+<div class="center-wrapper">
 			<header>
 				<a href="#andy">Andy<span id="ex">Pang<span></a>
 				<nav>
 					<ul>
 						<li><a href = "assets/pdf/Andy Pang Resume.pdf" target="_blank">		
 							Resume
+						</a></li>
+						<li><a href = "#portfolio">
+							<ion-icon name="folder-open-sharp"></ion-icon>
 						</a></li>
 						<li><a href='https://www.linkedin.com/in/apang00/' target="_blank"> 
 							<ion-icon name="logo-linkedin"></ion-icon>
@@ -38,12 +39,13 @@
 					</ul>
 				</nav>
 			</header>
+
 			<div class="center-content">
 				<h1>I work with data & software to provide solutions</h1>
 				<p class="subtitle">
-					<span id="span1">Compelling</span> Statistics |  
-					<span id="span2">Predictive</span> Modeling | 
-					<span id="span3">Analytical</span> Solutions 
+					<span id="ex1">Compelling</span> Statistics |  
+					<span id="ex1">Predictive</span> Modeling | 
+					<span id="ex1">Analytical</span> Solutions 
 				</p>
 			</div>
 		</div>
@@ -52,10 +54,11 @@
 	<div id="andy">
 	<div class="about">
 		<div class="center-wrapper">
-				<span id="arrow">&gt; </span>
-			<span id="hi"> Hi, I'm <span id="ex">Andy</span> </span> <span id="cursor">_</span>
+
+			<div class="column columntext">
+			<span id="hi"> Hi, I'm <span id="ex">Andy</span> </span>
 <p>
-			I am a well grounded statistician committed to effectively identifying patterns and relationships to enhance, optimize, and produce meaningful metrics and insights. I completed my BS in statistics and data science at UCSB.
+			I am a well grounded statistician committed to effectively identifying patterns and relationships to enhance, optimize, and produce meaningful metrics and insights.
 </p>
 <p>
 			I'm currently working on an analysis of winning lottery numbers -- using R and Python to predictively model winners and to find stochastic behavior.
@@ -64,11 +67,62 @@
 			Previously, I've worked at <a href="https://grandprixscout.com/" target="_blank"> Grand Prix Scout</a> and at <a href="https://www.ciymca.org/" target="_blank"> the Channel Islands YMCA</a>.
 </p>
 <p>
-			Browse my current and past projects<a href="#portfolio"> below </a>or view my <a href = "assets/pdf/Andy Pang Resume.pdf" target="_blank">resume</a>.
+			Browse my current and past projects<a href="#portfolio"> below </a>or view my <a href = "assets/pdf/Andy Pang Resume.pdf" target="_blank">resume</a>.			
 </p>
+					&nbsp;
+			</div>
+
+		<div class="column columnline">
+			<span id="topic">&nbsp; Education</span>
+	<p>
+		&nbsp;&nbsp;&nbsp;University of California, Santa Barbara
+		<p id="sub">&nbsp;&nbsp;&nbsp;&nbsp;B.S. Statistics and Data Science
+		</p>
+	</p>
+	<br></br>
+			<div class="column">
+				<span id="topic">&nbsp; Technologies</span>
+	<p>
+				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> C++
+				<br></br>
+				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> Python
+				<br></br>
+				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> HTML
+				<br></br>
+				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> Git
+	</p>
+			</div>
+			<div class="column">
+				<span>&nbsp;</span>
+	<p>
+				<span id="ex">&#9679;</span> R
+				<br></br>
+				<span id="ex">&#9679;</span> SQL
+				<br></br>
+				<span id="ex">&#9679;</span> CSS
+				<br></br>
+				<span id="ex">&#9679;</span> SAS
+	</p>
+			</div>
+
+				<span id="topic">&nbsp; Technical</span>
+	<p>
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Regression Analysis
+		<br></br>
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Time Series
+		<br></br>
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Experimental Design & Analysis
+		<br></br>
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Generalized Linear Models
+		<br></br>
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Statistical Machine Learning 
+
+	</p>
 		</div>
+
 	</div>
 	</div>
+
 
 	<div class="paralla">
 		<div class="center-wrapper">
@@ -80,9 +134,10 @@
 		</div>
 	</div>
 
+	<div class="display">
 	<div id="portfolio">
 		<div class="center-wrapper">
-			<h2>Portfolio</h2>
+			<h2>Port<span id="ex1">folio</span></h2>
 				<div class="portfolio">
 
 					<div class="card">
@@ -185,15 +240,22 @@
 				</div>
 		</div>
 	</div>
+	</div>
 
 	<div class="paralla"></div>
 
 <div class="contact">
 	<div class="center-wrapper">
-		<h2>Connect</h2>
-		<p>
-		Let's get in touch. Find me on <a href='https://www.linkedin.com/in/apang00/' target="_blank"> Linkedin </a> or email me at <a href='mailto:apang782@gmail.com'> apang782@gmail.com</a>.
-		</p>
+		<h2>Let's<span id="ex1"> Connect</span></h2>
+		<a href='https://www.linkedin.com/in/apang00/' target="_blank">
+			<ion-icon name="logo-linkedin"></ion-icon>
+		</a>
+		<a href='https://github.com/apang782' target="_blank">
+			<ion-icon name="logo-github"></ion-icon>
+		</a>
+		<a href='mailto:apang782@gmail.com'>
+			<ion-icon name="mail-outline"></ion-icon>
+		</a>
 	</div>
 </div>
 
