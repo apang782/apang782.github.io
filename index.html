@@ -4,35 +4,51 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-	<title>Andy Pang | Statistics & Data Science</title>
-	<meta name="description" content="Andy Pang's personal portfolio website">
-	<meta name="keywords" content="Pang,Andy,data,statistics,science,UCSB,analysis">
+	<title>Andy Pang | AI Solutions Architect</title>
+	<meta name="description" content="Andy Pang — AI Solutions Architect building agentic AI systems, MCP tooling, and developer infrastructure.">
+	<meta name="keywords" content="Pang,Andy,AI,agents,agentic,MCP,Claude Code,machine learning,cloud,solutions architect">
 	<meta name="author" content="Andy Pang">
-	<meta name="theme-color" content="#5F7891">
+	<meta name="theme-color" content="#2d3436">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://apang782.github.io/">
+	<meta property="og:title" content="Andy Pang | AI Solutions Architect">
+	<meta property="og:description" content="Building agentic AI systems, MCP tooling, and developer infrastructure.">
+	<meta property="og:image" content="https://apang782.github.io/assets/img/og.png">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<meta property="og:image:alt" content="Andy Pang — AI Solutions Architect">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:title" content="Andy Pang | AI Solutions Architect">
+	<meta name="twitter:description" content="Building agentic AI systems, MCP tooling, and developer infrastructure.">
+	<meta name="twitter:image" content="https://apang782.github.io/assets/img/og.png">
+	<meta name="twitter:image:alt" content="Andy Pang — AI Solutions Architect">
+	<link rel="canonical" href="https://apang782.github.io/">
 	<link rel="shortcut icon" href="assets/img/icon.svg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 
 <style>
-	html,body{width:100%;padding:0;margin:0;overflow:auto}html{scroll-behavior:smooth}*{box-sizing:border-box}body{margin:0;background:#2d3436;color:#dfe6e9;font-family:'Red Hat Display',sans-serif;*/}a{color:white;text-decoration:none}ul{list-style:none;margin:0;padding:0}.center-wrapper{padding:1.5em;max-width:1200px;margin:0 auto}header{font-size:110%;display:flex;justify-content:space-between;}ul{display:flex}li a{padding:0.5em}.center-content{margin:4em 0 2em}.subtitle{margin-bottom:0}.about #hi{font-size:40px;line-height:60px;color:#dfe6e9}.about a{font-weight:600;color:#2ed573}.jump ion-icon{margin-left:auto;margin-right:auto;display:block;height:30px;width:30px;padding-top:0.5em}h2{text-align:center;position:relative;font-size:xx-large}.portfolio{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));grid-auto-rows:auto;margin-left:auto;margin-right:auto}.card{margin:1em 1.5%;display:inline-block;border-radius:3px;color:black;text-align:center;margin-left:auto;margin-right:auto;background-color:#f4f4f4;position:relative;padding:2px 16px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);flex-direction:column;justify-content:flex-start;align-items:center;align-content:stretch;min-width:400px;width:30%}ion-icon{position:relative;display:inline-block;top:0.15em}#ex{color:#00b894}#ex1{color:#FFBA08;}
+	html,body{width:100%;padding:0;margin:0;overflow:auto}html{scroll-behavior:smooth}*{box-sizing:border-box}body{margin:0;background:#2d3436;color:#dfe6e9;font-family:'Red Hat Display',sans-serif;}a{color:white;text-decoration:none}ul{list-style:none;margin:0;padding:0}.center-wrapper{padding:1.5em;max-width:1200px;margin:0 auto}header{font-size:110%;display:flex;justify-content:space-between;}ul{display:flex}li a{padding:0.5em}.center-content{margin:4em 0 2em}.subtitle{margin-bottom:0}.about #hi{font-size:40px;line-height:60px;color:#dfe6e9}.about a{font-weight:600;color:#2ed573}.jump ion-icon{margin-left:auto;margin-right:auto;display:block;height:30px;width:30px;padding-top:0.5em}h2{text-align:center;position:relative;font-size:xx-large}.portfolio{display:grid;grid-template-columns:repeat(auto-fill,minmax(400px,1fr));grid-auto-rows:auto;margin-left:auto;margin-right:auto}.card{margin:1em 1.5%;display:inline-block;border-radius:3px;color:black;text-align:center;margin-left:auto;margin-right:auto;background-color:#f4f4f4;position:relative;padding:2px 16px;box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);flex-direction:column;justify-content:flex-start;align-items:center;align-content:stretch;min-width:400px;width:30%}ion-icon{position:relative;display:inline-block;top:0.15em}#ex{color:#00b894}#ex1{color:#FFBA08;}.js .reveal{opacity:0;transform:translateY(20px);transition:opacity .6s ease,transform .6s ease;will-change:opacity,transform}.js .reveal.visible{opacity:1;transform:none}.card{transition:transform .2s ease,box-shadow .2s ease}.cta-row{margin-top:2em;display:flex;gap:1em;flex-wrap:wrap}.cta{display:inline-flex;align-items:center;gap:.4em;padding:.7em 1.4em;border-radius:6px;font-weight:600;font-size:90%;border:2px solid #00b894;transition:transform .15s ease,background .15s ease,color .15s ease}.cta.primary{background:#00b894;color:#0b1f1a}.cta.secondary{background:transparent;color:#dfe6e9;border-color:#dfe6e9}.cta:hover{transform:translateY(-2px)}.cta.primary:hover{background:#0fd1a7}.cta.secondary:hover{border-color:#00b894;color:#00b894}
 </style>
 <body>
 	<div class="top-wrapper">
 <div class="center-wrapper">
 			<header>
-				<a href="#andy">Andy<span id="ex">Pang<span></a>
+				<a href="#andy">Andy<span id="ex">Pang</span></a>
 				<nav>
 					<ul>
 						<li><a href = "assets/pdf/Andy_Pang_Resume.pdf" target="_blank">		
 							Resume
 						</a></li>
-						<li><a href = "#portfolio">
+						<li><a href = "#portfolio" aria-label="View portfolio">
 							<ion-icon name="folder-open-sharp"></ion-icon>
 						</a></li>
-						<li><a href='https://www.linkedin.com/in/apang00/' target="_blank"> 
+						<li><a href='https://www.linkedin.com/in/apang00/' target="_blank" aria-label="LinkedIn"> 
 							<ion-icon name="logo-linkedin"></ion-icon>
 						</a></li>
-						<li><a href='https://github.com/apang782' 
+						<li><a href='https://github.com/apang782' aria-label="GitHub"
 						target="_blank">
 							<ion-icon name="logo-github"></ion-icon>
 						</a></li>
@@ -41,12 +57,22 @@
 			</header>
 
 			<div class="center-content">
-				<h1>I work with data & software to provide solutions</h1>
+				<h1>I build agentic AI systems & developer tooling</h1>
 				<p class="subtitle">
-					<span id="ex1">Compelling</span> Statistics |  
-					<span id="ex1">Predictive</span> Modeling | 
-					<span id="ex1">Analytical</span> Solutions 
+					<span id="ex1">Autonomous</span> Agents |
+					<span id="ex1">MCP</span> Tooling |
+					<span id="ex1">Cloud</span> Infrastructure
 				</p>
+				<div class="cta-row">
+					<a class="cta primary" href="#portfolio">
+						<ion-icon name="folder-open-sharp"></ion-icon>
+						View Work
+					</a>
+					<a class="cta secondary" href="assets/pdf/Andy_Pang_Resume.pdf" target="_blank">
+						<ion-icon name="document-text-outline"></ion-icon>
+						Résumé
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -58,22 +84,27 @@
 			<div class="column columntext">
 			<span id="hi"> Hi, I'm <span id="ex">Andy</span> </span>
 <p>
-			I am a well grounded statistician committed to using statistical techniques that produce and identify meaningful metrics effectively.
+			I'm an AI Solutions Architect focused on agentic AI &mdash; building autonomous engineering agents, Model Context Protocol (MCP) tooling, and the guardrails that make LLM-driven systems safe to ship in production.
 </p>
 <p>
-			I'm currently working on an analysis of winning lottery numbers using R and Python.
+			I'm currently at <a href="https://c3.ai/" target="_blank">C3 AI</a>, where I build agentic AI and observability tooling, and I'm pursuing an M.S. in Computer Science at Georgia Tech.
 </p>
 <p>
-			Previously, I've worked at <a href="https://grandprixscout.com/" target="_blank"> Grand Prix Scout</a> and at <a href="https://www.ciymca.org/" target="_blank"> the Channel Islands YMCA</a>.
+			Before C3, I delivered solutions architecture and data products at <a href="https://www.transunion.com/" target="_blank">TransUnion</a>.
 </p>
 <p>
-			Browse my current and past projects<a href="#portfolio"> below </a>or view my <a href = "assets/pdf/Andy Pang Resume.pdf" target="_blank">resume</a>.			
+			Browse my projects<a href="#portfolio"> below </a>or view my <a href = "assets/pdf/Andy_Pang_Resume.pdf" target="_blank">resume</a>.
 </p>
 					&nbsp;
 			</div>
 
 		<div class="column columnline">
 			<span id="topic">&nbsp; Education</span>
+	<p>
+		&nbsp;&nbsp;&nbsp;Georgia Institute of Technology
+		<p id="sub">&nbsp;&nbsp;&nbsp;&nbsp;M.S. Computer Science (Ongoing)
+		</p>
+	</p>
 	<p>
 		&nbsp;&nbsp;&nbsp;University of California, Santa Barbara
 		<p id="sub">&nbsp;&nbsp;&nbsp;&nbsp;B.S. Statistics and Data Science
@@ -83,11 +114,11 @@
 			<div class="column">
 				<span id="topic">&nbsp; Technologies</span>
 	<p>
-				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> C++
-				<br></br>
 				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> Python
 				<br></br>
-				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> HTML
+				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> SQL
+				<br></br>
+				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> Bash
 				<br></br>
 				&nbsp;&nbsp;&nbsp;<span id="ex">&#9679;</span> Git
 	</p>
@@ -95,34 +126,34 @@
 			<div class="column">
 				<span>&nbsp;</span>
 	<p>
-				<span id="ex">&#9679;</span> R
+				<span id="ex">&#9679;</span> Kubernetes
 				<br></br>
-				<span id="ex">&#9679;</span> SQL
+				<span id="ex">&#9679;</span> Docker
 				<br></br>
-				<span id="ex">&#9679;</span> CSS
+				<span id="ex">&#9679;</span> Terraform
 				<br></br>
-				<span id="ex">&#9679;</span> SAS
+				<span id="ex">&#9679;</span> AWS / Azure
 	</p>
 			</div>
 
 			<div class="column">
-				<span id="topic">&nbsp; Technical</span>
+				<span id="topic">&nbsp; Focus</span>
 	<p>
-		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Regression Analysis
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Agentic AI & MCP
 		<br></br>
-		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Time Series
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> LLM Security & Guardrails
 		<br></br>
-		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Experimental Design & Analysis
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> RAG Architectures
 	</p>
 			</div>
 		<div class="column">
 			<span>&nbsp;</span>
 	<p>
-		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Generalized Linear Models
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Cloud Infrastructure
 		<br></br>
-		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Data Retrieval
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Observability
 		<br></br>
-		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Machine Learning
+		&nbsp;&nbsp;&nbsp;<span id="ex">&#9672;</span> Vector Search
 	</p>
 		</div>
 		</div>
@@ -134,7 +165,7 @@
 	<div class="paralla">
 		<div class="center-wrapper">
 			<div class="jump">
-				<a href="#portfolio">
+				<a href="#portfolio" aria-label="Scroll to portfolio">
 					<ion-icon name="chevron-down-outline"></ion-icon>
 				</a>
 			</div>
@@ -146,6 +177,34 @@
 		<div class="center-wrapper">
 			<h2>Port<span id="ex1">folio</span></h2>
 				<div class="portfolio">
+
+					<div class="card">
+						<h3><b>oncall-triage &mdash; Claude Code Plugin</b></h3>
+						<p>A Claude Code plugin giving on-call engineers a guard-railed, read-only first-pass triage workflow for live Kubernetes incidents.
+							<br></br>
+						<span style="color:white;background:#6b48ff">
+							Claude Code
+						</span>
+						&nbsp;
+						<span style="color:#646464;background:#FFD43B">
+							Python
+						</span>
+						</p>
+						<div class="buttons">
+						<a href='https://www.loom.com/share/dd62c63a3c514aa9abc21dfca17d715c' target="_blank">
+							<button>
+								<ion-icon name="play-circle-outline"></ion-icon>
+								Watch Demo
+							</button>
+						</a>
+						<a href='https://github.com/apang782/oncall-triage' target="_blank">
+							<button>
+								<ion-icon name="code-outline"></ion-icon>
+								View Code
+							</button>
+						</a>
+						</div>
+					</div>
 
 					<div class="card">
 						<h3><b>Web Scrape & Visualization of Used Car Prices</b></h3>
@@ -244,44 +303,18 @@
 					</div>
 
 					<div class="card">
-						<h3><b>Lottery Analysis (WIP)</b></h3>
-						<p>Examining trends in winning lottery numbers. Uses Beautiful Soup to help scrape over 90 webpages.
-							<br></br>
-							<span style="color:white;background:#4AA4DE">
-							R
-							</span>
-							&nbsp;
-							<span style="color:#646464;background:#FFD43B">
-							Python
-							</span>
-						</p>
-						<div class="buttons">	
-							<!--
-						<a href='https://github.com/apang782' target="_blank">
-							<button>
-								<ion-icon name="document-outline"></ion-icon>
-								View Project
-							</button>
-						</a>
-					-->
-						<a href='https://github.com/apang782/lotto' target="_blank">
-							<button>
-								<ion-icon name="code-outline"></ion-icon>
-								View Code
-							</button>
-						</a>
-						</div>
-					</div>
-
-					<div class="card">
 						<h3><b>apang782.github.io</b></h3>
-						<p>This website -- my introduction to HTML and CSS
+						<p>Vanilla HTML, CSS &amp; JS &mdash; no frameworks.
 							<br></br>
 							<span style="color:white;background:#e34c26">
 								HTML</span>
 							&nbsp;
 							<span style="color:white;background:#264de4">
 								CSS
+							</span>
+							&nbsp;
+							<span style="color:#323330;background:#f7df1e">
+								JS
 							</span>
 						</p>
 						<div class="buttons">	
@@ -304,13 +337,13 @@
 <div class="contact">
 	<div class="center-wrapper">
 		<h2>Let's<span id="ex1"> Connect</span></h2>
-		<a href='https://www.linkedin.com/in/apang00/' target="_blank">
+		<a href='https://www.linkedin.com/in/apang00/' target="_blank" aria-label="LinkedIn">
 			<ion-icon name="logo-linkedin"></ion-icon>
 		</a>
-		<a href='https://github.com/apang782' target="_blank">
+		<a href='https://github.com/apang782' target="_blank" aria-label="GitHub">
 			<ion-icon name="logo-github"></ion-icon>
 		</a>
-		<a href='mailto:apang782@gmail.com'>
+		<a href='mailto:apang782@gmail.com' aria-label="Email">
 			<ion-icon name="mail-outline"></ion-icon>
 		</a>
 	</div>
@@ -318,7 +351,7 @@
 
 <div class="bottom">
 	<div class="center-wrapper">
-		Andy Pang 2020
+		Andy Pang <span id="yr">2026</span>
 		<span>&#127761;</span> 
 		<span>&#127762;</span> 
 		<span>&#127763;</span> 
@@ -334,5 +367,20 @@
 <script nomodule="" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.js"></script>
 <link rel="stylesheet" href="assets/css/main.css" media="print"
 onload="this.media='all';this.onload=null;">
+<noscript><link rel="stylesheet" href="assets/css/main.css"></noscript>
+<script>
+(function(){
+	document.documentElement.classList.add('js');
+	var yr=document.getElementById('yr');if(yr){yr.textContent=new Date().getFullYear();}
+	var els=document.querySelectorAll('.card,.columntext,.columnline,.contact h2');
+	var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+	if(reduce||!('IntersectionObserver' in window)){els.forEach(function(el){el.classList.add('reveal','visible');});return;}
+	els.forEach(function(el){el.classList.add('reveal');});
+	var io=new IntersectionObserver(function(entries){
+		entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');io.unobserve(e.target);}});
+	},{threshold:0.12,rootMargin:'0px 0px -40px 0px'});
+	els.forEach(function(el){io.observe(el);});
+})();
+</script>
 </body>
 </html>

@@ -1,0 +1,15 @@
+# Logs
+*.log
+debug.log
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python (mock MCP / scripts)
+__pycache__/
+*.pyc
+.venv/
+venv/
